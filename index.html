@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TenPlus - Move Beyond Hydration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="bg-black">
+
+    <!-- Main Container -->
+    <div class="w-full">
+
+        <!-- Header -->
+        <header class="absolute top-0 left-0 w-full z-10 p-6 md:p-8">
+            <div class="container mx-auto flex items-center justify-between">
+                <!-- Logo -->
+                <h1 class="text-2xl font-black tracking-widest text-black/90">tenplus</h1>
+
+                <!-- Navigation Menu -->
+                <nav class="hidden md:flex items-center space-x-6 text-sm md:text-base font-semibold text-black/90">
+                    <a href="#" class="hover:text-yellow-500 transition-colors">Buy Now</a>
+                    <a href="#ingredients" class="hover:text-yellow-500 transition-colors">Ingredients & Benefits</a>
+                    <a href="#cart" class="hover:text-yellow-500 transition-colors">Cart</a>
+                    <div class="flex items-center space-x-1">
+                        <button class="hover:text-yellow-500 transition-colors">ID</button>
+                        <span>|</span>
+                        <button class="hover:text-yellow-500 transition-colors">EN</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Available in 6 Flavours Section -->
+        <section class="relative py-16 md:py-24 bg-white text-black overflow-hidden">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-70 z-0">
+                <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Optional Overlay -->
+            <div class="absolute inset-0 bg-white bg-opacity-60 z-0"></div>
+
+            <!-- Section Content -->
+            <div class="relative z-10 container mx-auto px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Text Content -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
+                            Discover Our <br class="hidden md:block"> 6 Refreshing Flavours
+                        </h3>
+                        <p class="mt-4 text-lg text-gray-700">
+                            From citrusy bursts to berry delights—hydration has never been this tasty.
+                        </p>
+                        <a href="#"
+                            class="mt-6 inline-block bg-yellow-400 text-black font-bold py-3 px-8 rounded-lg text-lg hover:bg-yellow-300 transition-colors">
+                            Buy Now
+                        </a>
+                    </div>
+
+                    <!-- Flavour Cards -->
+                    <div class="relative w-full h-[500px] md:h-[600px]">
+                        <!-- Tropical Citrus -->
+                        <div
+                            class="absolute w-28 md:w-32 lg:w-40 left-[10%] top-[10%] transform -rotate-12 hover:scale-110 hover:z-10 transition-transform">
+                            <div class="relative group cursor-pointer">
+                                <img src="https://mytenplus.com/wp-content/uploads/2023/12/PNG-ASEAN-Tropical-Citrus-Tenplus-Sachets-copy-01.png"
+                                    alt="Tropical Citrus" class="rounded-lg shadow-lg w-full">
+                                <div
+                                    class="absolute inset-0 bg-green-500 bg-opacity-90 rounded-lg flex items-center justify-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <div>
+                                        <h4 class="font-bold text-white text-lg">Tropical Citrus</h4>
+                                        <p class="text-sm text-green-100 mt-1">A zesty burst of tropical sunshine.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pineapple -->
+                        <div
+                            class="absolute w-28 md:w-32 lg:w-40 left-[25%] top-[5%] transform -rotate-6 hover:scale-110 hover:z-10 transition-transform">
+                            <div class="relative group cursor-pointer">
+                                <img src="https://mytenplus.com/wp-content/uploads/2023/12/PNG-ASEAN-Pineapple-Tenplus-Sachets-copy-01.png"
+                                    alt="Pineapple" class="rounded-lg shadow-lg w-full">
+                                <div
+                                    class="absolute inset-0 bg-yellow-500 bg-opacity-90 rounded-lg flex items-center justify-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <div>
+                                        <h4 class="font-bold text-white text-lg">Pineapple</h4>
+                                        <p class="text-sm text-yellow-100 mt-1">Sweet and juicy tropical notes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Orange -->
+                        <div
+                            class="absolute w-28 md:w-32 lg:w-40 left-[40%] top-[2%] transform rotate-0 hover:scale-110 hover:z-10 transition-transform">
+                            <div class="relative group cursor-pointer">
+                                <img src="https://mytenplus.com/wp-content/uploads/2023/12/PNG-ASEAN-Orange-Tenplus-Sachets-copy-01.png"
+                                    alt="Orange" class="rounded-lg shadow-lg w-full">
+                                <div
+                                    class="absolute inset-0 bg-amber-500 bg-opacity-90 rounded-lg flex items-center justify-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <div>
+                                        <h4 class="font-bold text-white text-lg">Mango</h4>
+                                        <p class="text-sm text-amber-100 mt-1">Bright and mango classic flavor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lemonade -->
+                        <div
+                            class="absolute w-28 md:w-32 lg:w-40 left-[55%] top-[5%] transform rotate-6 hover:scale-110 hover:z-10 transition-transform">
+                            <div class="relative group cursor-pointer">
+                                <img src="https://mytenplus.com/wp-content/uploads/2023/12/PNG-ASEAN-Sea-Salt-Lemonade-Tenplus-Sachets-copy-01.png"
+                                    alt="Lemonade" class="rounded-lg shadow-lg w-full">
+                                <div
+                                    class="absolute inset-0 bg-lime-500 bg-opacity-90 rounded-lg flex items-center justify-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <div>
+                                        <h4 class="font-bold text-white text-lg">Lemonade</h4>
+                                        <p class="text-sm text-lime-100 mt-1">Refreshing with a salty twist.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Orange (Pink Tone) -->
+                        <div
+                            class="absolute w-28 md:w-32 lg:w-40 left-[70%] top-[10%] transform rotate-12 hover:scale-110 hover:z-10 transition-transform">
+                            <div class="relative group cursor-pointer">
+                                <img src="https://mytenplus.com/wp-content/uploads/2023/12/PNG-ASEAN-Orange-Tenplus-Sachets-copy-01.png"
+                                    alt="Orange" class="rounded-lg shadow-lg w-full">
+                                <div
+                                    class="absolute inset-0 bg-rose-500 bg-opacity-90 rounded-lg flex items-center justify-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <div>
+                                        <h4 class="font-bold text-white text-lg">Orange</h4>
+                                        <p class="text-sm text-rose-100 mt-1">A juicy citrus kick.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mixed Berry -->
+                        <div
+                            class="absolute w-28 md:w-32 lg:w-40 left-[40%] top-[25%] transform -rotate-2 hover:scale-110 hover:z-10 transition-transform">
+                            <div class="relative group cursor-pointer">
+                                <img src="https://mytenplus.com/wp-content/uploads/2023/12/PNG-ASEAN-Mixed-Berry-Tenplus-Sachets-copy-01.png"
+                                    alt="Mixed-Berry" class="rounded-lg shadow-lg w-full">
+                                <div
+                                    class="absolute inset-0 bg-red-500 bg-opacity-90 rounded-lg flex items-center justify-center text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <div>
+                                        <h4 class="font-bold text-white text-lg">Mixed-Berry</h4>
+                                        <p class="text-sm text-red-100 mt-1">Cool and berrylicious.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Electrolytes Section -->
+        <section class="text-white py-16 md:py-24 electrolytes-bg">
+            <div class="container mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+                <!-- Image -->
+                <div class="w-full md:w-1/2">
+                </div>
+                <!-- Text and Stats -->
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-3xl lg:text-4xl font-extrabold tracking-tight">
+                        Sodium <span class="text-custom-yellow">480mg</span>, Potassium <span
+                            class="text-custom-yellow">175mg</span> + Magnesium <span
+                            class="text-custom-yellow">40mg</span>
+                    </h3>
+                    <p class="mt-4 text-lg text-gray-300">
+                        The perfect blend of electrolytes to help you rehydrate faster and more effectively than water
+                        alone. Our formula is designed to replenish the essential minerals you lose in sweat, helping
+                        you maintain peak performance and recover quicker.
+                    </p>
+                    <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
+                        <div class="bg-gray-900 p-6 rounded-lg">
+                            <h4 class="text-xl font-bold text-custom-yellow">Sodium</h4>
+                            <p class="text-gray-400 mt-2">Helps maintain fluid balance and supports nerve function.</p>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg">
+                            <h4 class="text-xl font-bold text-custom-yellow">Potassium</h4>
+                            <p class="text-gray-400 mt-2">Crucial for muscle contractions and regulating heartbeat.</p>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg">
+                            <h4 class="text-xl font-bold text-custom-yellow">Magnesium</h4>
+                            <p class="text-gray-400 mt-2">Aids in energy production and reduces muscle cramps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Power Up Your Day Section -->
+        <section class="bg-gray-100 text-black py-16 md:py-24">
+            <div class="container mx-auto px-6 lg:px-8 flex flex-col md:flex-row-reverse items-center gap-12">
+                <!-- Image -->
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="assets/images/images03.png" alt="Tenplus Product Box" class="max-w-sm md:max-w-md">
+                </div>
+                <!-- Text -->
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-custom-yellow">Power Up Your Day
+                        with Tenplus</h3>
+                    <p class="mt-4 text-lg text-gray-700">
+                        Keep hydrated and stay on top of your day with our great blend
+                        of electrolytes. Tenplus provides an optimal mix of high-quality
+                        ingredients and vital vitamins. All without added sugar.
+                    </p>
+                    <p class="mt-4 text-lg text-gray-700">
+                        Whether you're hitting the gym, going for a run, or just want to perform at your best—we've got
+                        the fuel you need.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Icons Bar Section -->
+        <section class="bg-gray-800 py-8">
+            <div class="container mx-auto px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-8 text-center text-gray-400">
+                    <div
+                        class="flex flex-col items-center hover:text-white transition duration-300 ease-in-out transform hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        <span>Fast Absorption</span>
+                    </div>
+                    <div
+                        class="flex flex-col items-center hover:text-white transition duration-300 ease-in-out transform hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>All Day Hydration</span>
+                    </div>
+                    <div
+                        class="flex flex-col items-center hover:text-white transition duration-300 ease-in-out transform hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-12v4m-2-2h4m6 10v4m-2-2h4M12 6a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4zm6-7a2 2 0 100-4 2 2 0 000 4zM6 11a2 2 0 100-4 2 2 0 000 4z" />
+                        </svg>
+                        <span>Essential Vitamins</span>
+                    </div>
+                    <div
+                        class="flex flex-col items-center hover:text-white transition duration-300 ease-in-out transform hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M20.618 5.984A11.955 11.955 0 0112 2.044a11.955 11.955 0 01-8.618 3.94.993.993 0 00-.834 1.482 12.012 12.012 0 0018.904 0 .993.993 0 00-.832-1.482zM12 12a4 4 0 100-8 4 4 0 000 8z" />
+                        </svg>
+                        <span>No Added Sugar</span>
+                    </div>
+                    <div
+                        class="flex flex-col items-center hover:text-white transition duration-300 ease-in-out transform hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 01-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 01-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        </svg>
+                        <span>Natural Flavours</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Fuelled by Tenplus Section -->
+        <section class="bg-white text-black py-16 md:py-24">
+            <div class="container mx-auto px-6 lg:px-8">
+                <h3 class="text-4xl font-extrabold">Fuelled by Tenplus</h3>
+                <p class="mb-12">Hear from our happily hydrated community</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+                    <div class="relative group">
+                        <img src="https://mytenplus.com/wp-content/uploads/2024/10/testimonial-1-1-0003-1.webp"
+                            alt="User generated content"
+                            class="rounded-lg w-full h-full object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:shadow-lg">
+                        <div
+                            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14.752 11.168l-4.586-2.65A1 1 0 009 9.35v5.3a1 1 0 001.166.982l4.586-2.65a1 1 0 000-1.714z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <img src="https://mytenplus.com/wp-content/uploads/2024/10/TESTIMONI-Rosanna-0001-1.webp"
+                            alt="User generated content"
+                            class="rounded-lg w-full h-full object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:shadow-lg">
+                        <div
+                            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14.752 11.168l-4.586-2.65A1 1 0 009 9.35v5.3a1 1 0 001.166.982l4.586-2.65a1 1 0 000-1.714z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <img src="https://mytenplus.com/wp-content/uploads/2024/10/TESTIMONI-Olly-Brunton-Full-Version-0001-1.webp"
+                            alt="User generated content"
+                            class="rounded-lg w-full h-full object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:shadow-lg">
+                        <div
+                            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14.752 11.168l-4.586-2.65A1 1 0 009 9.35v5.3a1 1 0 001.166.982l4.586-2.65a1 1 0 000-1.714z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="relative group">
+                        <img src="https://mytenplus.com/wp-content/uploads/2024/10/1000029041-0001-1.webp"
+                            alt="User generated content"
+                            class="rounded-lg w-full h-full object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-105 group-hover:shadow-lg">
+                        <div
+                            class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14.752 11.168l-4.586-2.65A1 1 0 009 9.35v5.3a1 1 0 001.166.982l4.586-2.65a1 1 0 000-1.714z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="bg-black text-gray-400 py-16">
+            <div class="container mx-auto px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
+                    <!-- Logo -->
+                    <div class="md:col-span-2">
+                        <img src="assets/images/images04.png" alt="tenplus">
+                    </div>
+
+                    <!-- Footer Links -->
+                    <div class="md:col-span-4 grid grid-cols-2 md:grid-cols-4 gap-8">
+                        <!-- About -->
+                        <div>
+                            <h4 class="font-bold text-white mb-4">About</h4>
+                            <ul>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Our Ingredients</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Science & Efficacy</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Reviews</a></li>
+                            </ul>
+                        </div>
+                        <!-- Shop -->
+                        <div>
+                            <h4 class="font-bold text-white mb-4">Shop</h4>
+                            <ul>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Hydration Mix</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Bundles</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Merchandise</a></li>
+                            </ul>
+                        </div>
+                        <!-- Community -->
+                        <div>
+                            <h4 class="font-bold text-white mb-4">Community</h4>
+                            <ul>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Ambassadors</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Events</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Blog</a></li>
+                            </ul>
+                        </div>
+                        <!-- Support -->
+                        <div>
+                            <h4 class="font-bold text-white mb-4">Support</h4>
+                            <ul>
+                                <li class="mt-2"><a href="#" class="hover:text-white">Contact Us</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">FAQ</a></li>
+                                <li class="mt-2"><a href="#" class="hover:text-white">My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>
