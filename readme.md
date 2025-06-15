@@ -1,7 +1,8 @@
-````markdown
 # TenPlus - Move Beyond Hydration
 
-This project is a landing page for TenPlus, a hydration mix product, showcasing its features, flavors, benefits, and user testimonials.
+This project is a responsive landing page for **TenPlus**, a hydration mix product, highlighting its features, flavors, benefits, and community testimonials.
+
+---
 
 ## Table of Contents
 
@@ -12,57 +13,79 @@ This project is a landing page for TenPlus, a hydration mix product, showcasing 
 - [File Structure](#file-structure)
 - [Author](#author)
 
+---
+
 ## Features
 
-- **Header Navigation**: A responsive header with brand logo and navigation links.
-- **Hero Section with Video Background**: Engaging "Available in 6 Flavours" section with a looping background video and an interactive display of product flavors.
-- **Electrolytes Benefits Section**: Highlights the key electrolyte content (Sodium, Potassium, Magnesium) and their benefits for rehydration and performance.
-- **Product Information Section**: Details about Tenplus's blend of electrolytes, vitamins, and no added sugar.
-- **Icons Bar**: A concise display of key product advantages like fast absorption, all-day hydration, essential vitamins, no added sugar, and natural flavors.
-- **User Testimonials/Community Section**: Showcases user-generated content (images) with a hover effect to simulate video playback.
-- **Footer**: Comprehensive footer with company logo, "About," "Shop," "Community," and "Support" links.
-- **Responsive Design**: Optimized for various screen sizes using Tailwind CSS.
+- **Header Navigation**: Responsive header with logo and navigation links.
+- **Hero Section with Video Background**: A bold hero section with looping background video and featured flavors.
+- **Electrolytes Benefits**: Highlights key electrolytes (Sodium, Potassium, Magnesium) and their hydration benefits.
+- **Product Information**: Details TenPlus’s blend of electrolytes, vitamins, and its no-added-sugar formula.
+- **Icons Bar**: Quick display of product advantages such as fast absorption, all-day hydration, and natural flavors.
+- **Community Testimonials**: Showcases user images with hover effects mimicking video interactivity.
+- **Footer**: Includes navigation links like "About," "Shop," "Community," and "Support."
+- **Mobile-First Design**: Fully responsive using Tailwind CSS utility classes.
+
+---
 
 ## Technologies Used
 
-- **HTML5**: For the basic structure of the webpage.
-- **Tailwind CSS**: A utility-first CSS framework for styling and responsive design.
-- **Google Fonts (Inter)**: For custom typography.
-- **Vanilla JavaScript**: (Implicitly, though no explicit JS in the provided snippet, typically used for interactive elements like the flavor cards' hover states or potential future features).
+- **HTML5** — semantic structure.
+- **Tailwind CSS** — utility-first styling and responsive layout.
+- **Google Fonts (Inter)** — typography customization.
+- **Vanilla JavaScript** *(optionally)* — for interactivity (e.g., hover/video triggers).
+
+---
 
 ## Installation
 
-To set up this project locally, follow these steps:
+To run this project locally:
 
-1.  **Clone the repository:**
+1. **Clone the repository**
 
-    ```bash
-    git clone [https://github.com/cookiesblack/tenplus_landing.git](https://github.com/cookiesblack/tenplus_landing.git)
-    cd tenplus_landing
-    ```
+   ```bash
+   git clone https://github.com/cookiesblack/tenplus_landing.git
+   cd tenplus_landing
+   ```
 
-    (Note: Replace `tenplus_landing` with the actual repository name if it exists, otherwise, this is a placeholder instruction.)
+2. **Tailwind CSS**
 
-2.  **Ensure Tailwind CSS is configured:**
-    The project uses a CDN for Tailwind CSS, so no local installation is strictly required to view the page.
-    ```html
-    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
-    ```
-    If you plan to extend or customize the Tailwind CSS, you might want to set up a local Tailwind build process. Refer to the [Tailwind CSS documentation](https://tailwindcss.com/docs/installation) for more details.
+   Tailwind is included via CDN, so you don’t need to install it manually:
 
-3.  **Place assets:**
-    Make sure to place `images03.png` in an `assets/images/` directory and `main.css` in an `assets/css/` directory relative to your `index.html` file, as referenced in the HTML:
-    -   `assets/css/main.css`
-    -   `assets/images/images03.png`
-    -   The testimonial images and flavor images are linked directly from `mytenplus.com` and `w3schools.com` respectively.
+   ```html
+   <script src="https://cdn.tailwindcss.com"></script>
+   ```
+
+   > Optional: To customize Tailwind, follow the [official Tailwind installation guide](https://tailwindcss.com/docs/installation) for a local setup.
+
+3. **Assets**
+
+   Ensure the following assets are placed in the correct paths relative to `index.html`:
+
+   ```
+   assets/
+   ├── css/
+   │   └── main.css
+   └── images/
+       ├── images03.png
+       └── images04.png
+   ```
+
+   > *Testimonial and flavor images may be loaded from external sources such as `mytenplus.com` or `w3schools.com`.*
+
+---
 
 ## Usage
 
-Simply open the `index.html` file in your web browser.
+Open `index.html` in your browser:
 
 ```bash
 open index.html
-````
+```
+
+Or simply double-click it from your file explorer.
+
+---
 
 ## File Structure
 
@@ -71,19 +94,18 @@ open index.html
 ├── index.html
 ├── assets/
 │   ├── css/
-│   │   └── main.css  (For custom CSS, if any, beyond Tailwind)
+│   │   └── main.css
 │   └── images/
 │       ├── images03.png
 │       └── images04.png
 └── README.md
 ```
 
+---
+
 ## Author
 
-**Edwin R. Pelleng**
-✉️ [ewinpelleng@gmail.com](mailto:ewinpelleng@gmail.com)
-🔗 [ewin.my.id](https://ewin.my.id)
+**Edwin R. Pelleng**  
+✉️ [ewinpelleng@gmail.com](mailto:ewinpelleng@gmail.com)  
+🔗 [ewin.my.id](https://ewin.my.id)  
 🐙 [github.com/cookiesblack](https://github.com/cookiesblack)
-
-```
-```
